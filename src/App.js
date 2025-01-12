@@ -7,7 +7,6 @@ function App() {
   return (
     <>
         <Navbar />    
-        {/* other components    */}
         <div style={{backgroundColor :'rgba(238,242,244,255)'}}>
           <Routes>
             <Route path='/' element={<Home />} />

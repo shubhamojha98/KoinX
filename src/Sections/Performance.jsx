@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SliderChart from '../Components/SliderChart'
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import Placeholder from 'react-bootstrap/Placeholder';
 
 const Performance = ({ coinId }) => {
 

@@ -41,7 +41,7 @@ const PriceChart = ({ coinId }) => {
     const fetchData = async () => {
       try {
         const response = await fetch(`https://api.coingecko.com/api/v3/coins/${coinId}/market_chart?vs_currency=usd&days=${coinDays}`);
-        // console.log(coinId + ' fetching data for ' + coinDays + ' days')
+        console.log(coinId + ' fetching data for ' + coinDays + ' days')
         const result = await response.json();
         const prices = result.prices.map(price => ({
           x: new Date(price[0]),

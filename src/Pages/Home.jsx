@@ -1,6 +1,4 @@
 import React from 'react'
-// import ChartSection from '../Sections/ChartSection'
-// import CoinData from '../Components/CoinData'
 import Performance from '../Sections/Performance'
 import Main from '../Sections/Main'
 import About from '../Sections/About'

@@ -21,7 +21,7 @@ const CustomPieChart = () => {
   };
 
   return (
-    <ResponsiveContainer width="40%" height={200}>
+    <ResponsiveContainer width="41%" height={200}>
       <PieChart>
         <Pie
           data={data}

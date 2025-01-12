@@ -1,5 +1,5 @@
 import React from 'react';
-import './SliderChart.css'; // Import CSS file for styling (create this file)
+import './SliderChart.css';
 
 const SliderChart = ({ todayLow, todayHigh, currentPrice }) => {
     const range = todayHigh - todayLow;
