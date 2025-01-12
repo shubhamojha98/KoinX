@@ -1,3 +1,4 @@
 # KoinX
-Deployed On Vercel and Netlify
-vercel Link: koin-x-brown.vercel.app
+## Live Demo
+You can view the live demo of the project here: [KoinX Demo](https://koin-x-brown.vercel.app/)
+
