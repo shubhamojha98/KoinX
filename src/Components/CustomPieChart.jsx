@@ -1,5 +1,7 @@
 import React from 'react';
-import { PieChart, Pie, Cell, ResponsiveContainer, Legend } from 'recharts';
+// import { PieChart, Pie, Cell, ResponsiveContainer, Legend } from 'recharts';
+import { PieChart, Pie, Cell,ResponsiveContainer, Legend } from 'recharts';
+
 
 const data = [
   { name: 'Category 1', value: 30 },
@@ -19,7 +21,7 @@ const CustomPieChart = () => {
   };
 
   return (
-    <ResponsiveContainer width="30%" height={200}>
+    <ResponsiveContainer width="40%" height={200}>
       <PieChart>
         <Pie
           data={data}

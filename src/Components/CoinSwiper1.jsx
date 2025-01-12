@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import img from '../Images/MiniGraph.JPG';
 
 const CoinSwiper1 = () => {
     const [coins, setCoins] = useState([]);

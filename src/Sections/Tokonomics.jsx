@@ -1,5 +1,7 @@
 import React from 'react'
 import CustomPieChart from '../Components/CustomPieChart'
+import { PieChart, Pie, Tooltip, Legend } from 'recharts';
+
 
 const Tokonomics = () => {
     return (
